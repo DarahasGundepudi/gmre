@@ -1,0 +1,36 @@
+.navbarul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: normal !important;
+    /* padding: 0 2rem 0 2rem; */
+}
+.navbarul>li:hover{
+    cursor: pointer;
+}
+.nostyle {
+    background-color: #FFF !important;
+    border: none !important;
+}
+.nostyle:hover {
+    background-color: #EBECF0 !important;
+}
+
+.menuclass>ul {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+.dropdownclass {
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: normal !important;
+    background-color: #FFF !important;
+    border: none !important;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
