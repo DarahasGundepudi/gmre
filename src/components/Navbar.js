@@ -1,13 +1,18 @@
 import "./Navbar.css";
 import  Dropdown  from "react-multilevel-dropdown";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav>
         <ul className="navbarul">
-          <li>Home</li>
-          <li>About us</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About us</Link>
+          </li>
           <li>
             <Dropdown
               title="Engineering products"
@@ -88,7 +93,9 @@ const Navbar = () => {
               <Dropdown.Item>Chain & Sprockets</Dropdown.Item>
             </Dropdown>
           </li>
-          <li>Contact us</li>
+          <li>
+            <Link to="contact">Contact us</Link>
+          </li>
         </ul>
       </nav>
     </div>
