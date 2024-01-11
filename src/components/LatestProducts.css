@@ -1,0 +1,12 @@
+.lpContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.lpHeading {
+    text-align: center;
+    font: 2.5em 'Open Sans',Arial,Helvetica,sans-serif;
+    color: #163e61;
+}

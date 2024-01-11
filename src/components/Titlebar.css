@@ -1,0 +1,15 @@
+.titlebarul {
+  list-style: none;
+  display: flex;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal !important;
+  justify-content: center;
+}
+
+.titlebarul > li {
+  margin: 0 10px; /* Adjust spacing between navbar items */
+}
+
+.titlebarul > li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.productCard {
+    box-shadow: 1px 2px 9px #aab6f4;
+    /* margin: 4rem; */
+    padding: 1rem;
+}
+.productCard>img {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+.cardButtons {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.primaryCardButton {
+    background-color: #FFF;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #163e61;
+}
+
+.secondaryCardButton {
+    background-color: #163e61;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFF;
+    border: none;
+}
