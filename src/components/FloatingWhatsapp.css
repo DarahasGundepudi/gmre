@@ -1,0 +1,31 @@
+/* Floating WhatsApp Icon Styles */
+.floating-whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .floating-whatsapp-icon a {
+    display: block;
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    background-color: #25d366; /* WhatsApp green color */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+  
+  .floating-whatsapp-icon img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%;
+  }
+  
+  /* Hover effect (optional) */
+  .floating-whatsapp-icon a:hover {
+    background-color: #128C7E; /* Darker shade of WhatsApp green on hover */
+  }
+  
