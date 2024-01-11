@@ -75,7 +75,7 @@ const latestProducts = [
 
 const LatestProducts = () => {
   return (
-    <div>
+    <div style={{marginBottom: '4rem'}}>
       <h2 className="lpHeading">Latest Products</h2>
       <div className="lpContainer">
         {latestProducts.map((product)=><ProductCard key={product.img} {...product} />)}

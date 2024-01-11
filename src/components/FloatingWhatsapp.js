@@ -1,6 +1,6 @@
 import React from 'react';
 import './FloatingWhatsapp.css';
-import whatsapp_icon from "../assets/whatsapp.png"
+import whatsapp_icon from "../assets/whatsapp-float.png"
 
 class FloatingWhatsapp extends React.Component {
   openWhatsApp = () => {
@@ -12,7 +12,7 @@ class FloatingWhatsapp extends React.Component {
   render() {
     return (
       <div className="floating-whatsapp-icon" onClick={this.openWhatsApp}>
-        <img src={whatsapp_icon} alt="WhatsApp Icon" />
+        <img style={{cursor: 'pointer'}} src={whatsapp_icon} alt="WhatsApp Icon" />
       </div>
     );
   }

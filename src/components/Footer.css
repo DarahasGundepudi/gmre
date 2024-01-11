@@ -1,0 +1,77 @@
+.footerMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+    padding: 2.5rem 6vw 1rem 6vw;
+}
+
+.followUs {
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+    margin-bottom: 1rem/* 16px */;
+}
+
+.socialIcons {
+    display: flex;
+}
+
+.socialIcons>img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.singleLink {
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+}
+.singleLink>a {
+    text-decoration: none;
+    color: black;
+}
+.singleLink:hover {
+    color: #1b65b0;
+}
+.singleLink>a:hover {
+    color: #1b65b0;
+}
+
+.ownerName {
+    display: flex;
+    margin-bottom: 0.75rem;
+    align-items: center;
+    width: 25vw;
+}
+
+.ownerName>img {
+    width: 1.5rem;
+    margin-right: 0.75rem;
+}
+
+.phonemail {
+    display: flex;
+    margin-bottom: 0.75rem;
+    align-items: center;
+    width: 25vw;
+}
+.phonemail>img {
+    width: 1.5rem;
+    margin-right: 0.75rem;
+}
+.phonemail>a{
+    text-decoration: none;
+    color: black;
+}
+.phonemail>a:hover {
+    color:#1b65b0;
+}
+.phonemail:hover {
+    color: #1b65b0;
+}
+
+.someul {
+    list-style: none;
+    padding: 0;
+}
