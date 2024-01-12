@@ -1,0 +1,28 @@
+.aboutMain {
+    /* margin: 2rem 8vw; */
+    /* display: flex; */
+    align-items: center;
+}
+
+
+table {
+    margin: 4rem 0;
+    border-collapse: collapse;
+    /* border: 1px solid #dddddd; */
+}
+td, th {
+    padding: 8px;
+    border: 1px solid #acaaaa;
+
+}
+tr:first-child {
+    background-color: #dddddd;
+}
+
+table>tr>td:nth-of-type(1) {
+    padding: 8px 32px 8px 16px;
+}
+
+table>tr>td:nth-of-type(2) {
+    padding: 8px 16px;
+}

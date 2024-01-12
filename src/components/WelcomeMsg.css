@@ -1,0 +1,37 @@
+.welcomemsg {
+    box-shadow: 1px 2px 9px #aab6f4;
+    padding: 2rem 5rem;
+    margin: 1rem 8vw 4rem 8vw;
+}
+
+.welcomemsg>h2 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-size: 36px;
+    font-weight: 700;
+    margin-block: 0;
+    color: #002042;
+}
+
+.welcomemsg>p {
+    font-size: 18px;
+    text-align: justify;
+}
+.welcomemsg>p>span {
+    font-weight: bold;
+}
+
+.welcomemsg>button {
+    background-color: #163e61;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.welcomemsg>button>a {
+    color: #FFF;
+    text-decoration: none;
+}
