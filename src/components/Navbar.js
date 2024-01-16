@@ -55,20 +55,16 @@ const Navbar = () => {
               trigger={["click", "hover"]}
               className="dropdownclass"
             >
-              <Dropdown.Item>Stacker Reclaimer</Dropdown.Item>
-              <Dropdown.Item>Cable reeling drum</Dropdown.Item>
-              <Dropdown.Item>Electrical cables</Dropdown.Item>
-              <Dropdown.Item>Electromagnetic clutch</Dropdown.Item>
-              <Dropdown.Item>Gear motor</Dropdown.Item>
-              <Dropdown.Item>Hydraulic cylinder</Dropdown.Item>
-              <Dropdown.Item>Bearings</Dropdown.Item>
-              <Dropdown.Item>Conveyor belt</Dropdown.Item>
-              <Dropdown.Item>Stacker Reclaimer</Dropdown.Item>
-              <Dropdown.Item>Bolt & nuts</Dropdown.Item>
-              <Dropdown.Item>Gear box</Dropdown.Item>
-              <Dropdown.Item>Pulley</Dropdown.Item>
-              <Dropdown.Item>Conveyor idle roller</Dropdown.Item>
-              <Dropdown.Item>Chain & Sprockets</Dropdown.Item>
+              <Dropdown.Item>Ground Granulated Blast Furnace Slag</Dropdown.Item>
+              <Dropdown.Item>Industrial Coal</Dropdown.Item>
+              <Dropdown.Item>Fly Ash</Dropdown.Item>
+              <Dropdown.Item>Petroleum Coke</Dropdown.Item>
+              <Dropdown.Item>Iron Ores</Dropdown.Item>
+              <Dropdown.Item>Gypsum Powder</Dropdown.Item>
+              <Dropdown.Item>Phosphogypsum Powder</Dropdown.Item>
+              <Dropdown.Item>Copper Ore</Dropdown.Item>
+              <Dropdown.Item>Copper Millberry Scrap</Dropdown.Item>
+              <Dropdown.Item>Copper Slag</Dropdown.Item>
             </Dropdown>
           </li>
           <li>
@@ -77,20 +73,11 @@ const Navbar = () => {
               trigger={["click", "hover"]}
               className="dropdownclass"
             >
-              <Dropdown.Item>Stacker Reclaimer</Dropdown.Item>
-              <Dropdown.Item>Cable reeling drum</Dropdown.Item>
-              <Dropdown.Item>Electrical cables</Dropdown.Item>
-              <Dropdown.Item>Electromagnetic clutch</Dropdown.Item>
-              <Dropdown.Item>Gear motor</Dropdown.Item>
-              <Dropdown.Item>Hydraulic cylinder</Dropdown.Item>
-              <Dropdown.Item>Bearings</Dropdown.Item>
-              <Dropdown.Item>Conveyor belt</Dropdown.Item>
-              <Dropdown.Item>Stacker Reclaimer</Dropdown.Item>
-              <Dropdown.Item>Bolt & nuts</Dropdown.Item>
-              <Dropdown.Item>Gear box</Dropdown.Item>
-              <Dropdown.Item>Pulley</Dropdown.Item>
-              <Dropdown.Item>Conveyor idle roller</Dropdown.Item>
-              <Dropdown.Item>Chain & Sprockets</Dropdown.Item>
+              <Dropdown.Item>Maize Cattle Feed</Dropdown.Item>
+              <Dropdown.Item>Cashew Nut</Dropdown.Item>
+              <Dropdown.Item>Mens Underwear</Dropdown.Item>
+              <Dropdown.Item>Dried Ginger Powder</Dropdown.Item>
+              <Dropdown.Item>Black Pepper Powder</Dropdown.Item>
             </Dropdown>
           </li>
           <li>
