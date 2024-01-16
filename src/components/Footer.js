@@ -88,8 +88,8 @@ const Footer = () => {
         <div className="ownerName">
           <img src={navigation} alt="" />
           <p style={{ marginBlock: 0 }}>
-            D.No.2-22-310/C/402, Plot No.39c, Addagutta Society, Opp. Jntu,
-            Kukatpally, Hyderabad, Telangana - 500072, India
+            D.No.2-22-310/39C/402, Plot No.39C, Addagutta Society, Opp. JNTU,
+            Kukatpally, Hyderabad, Telangana - 500085, India
           </p>
         </div>
       </div>
