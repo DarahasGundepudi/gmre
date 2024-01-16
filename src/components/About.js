@@ -3,11 +3,12 @@ import "./About.css";
 import ProductSidebar from "../libraries/ProductSidebar";
 
 const About = () => {
+  window.scrollTo(0, 0);
   return (
     <div style={{margin: '2rem 8vw'}}>
       <div style={{ display: "grid", gridTemplateColumns: '5fr 1.5fr', gap:'2rem' }}>
         <div className="aboutMain">
-          <h3>About us</h3>
+          <h2>About us</h2>
           <p>
             <strong>Thrayee Engineering & Infra Solutions</strong> was founded
             with the explicit purpose of catering to the burgeoning bulk

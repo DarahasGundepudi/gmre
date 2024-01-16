@@ -1,0 +1,98 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.redspan {
+    color: red;
+}
+
+input {
+    padding: 6px 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #dddddd;
+}
+
+form>label {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.ownerName1 {
+    margin: 2rem 2rem 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.phonemail1 {
+    margin: 2rem 2rem 0 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;    
+    border-bottom: 1px solid #dddddd;
+}
+.phonemail1>a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.ownerName1>img {
+    width: 30px;
+    height: 30px;
+}
+
+.phonemail1>img {
+    width: 30px;
+    height: 30px;
+}
+
+.lhs {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f2f2;
+    /* gap: 4rem; */
+}
+
+form > textarea {
+    height: 50px;
+}
+
+form>button {
+    background-color: #163e61;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFF;
+    border: none;
+    margin-top: 2rem;
+    width: fit-content;
+}
+
+.contactHeading {
+    margin-block: 0;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+
+.iframeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+.iframeContainer>p {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}

@@ -3,14 +3,17 @@ import call_icon from "../assets/phone-call.png";
 import email_icon from "../assets/email.png";
 import "./Titlebar.css";
 import NavBar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 const Titlebar = () => {
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
-      <nav style={{background: '#FFF'}}>
+      <nav style={{ background: "#FFF" }}>
         <ul className="titlebarul">
           <li>
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </li>
           <li>
             <div style={{ display: "flex", gap: "2rem" }}>

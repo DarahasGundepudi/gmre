@@ -3,6 +3,7 @@ import  Dropdown  from "react-multilevel-dropdown";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <nav>

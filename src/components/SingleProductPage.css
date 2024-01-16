@@ -1,0 +1,42 @@
+.spMain {
+    display: flex;
+    padding: 40px 6vw;
+}
+
+.imgdiv {
+     --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    padding: 3vw;
+}
+
+.imgdiv>img {
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-duration: 150ms; */
+    transition-duration: 500ms;
+    width: 25vw;
+    height: 45vh;
+}
+
+.statename {
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+    padding-bottom: 2rem;
+}
+
+.descdiv {
+    display: flex;
+    border-bottom-color: rgb(31 41 55 / var(--tw-border-opacity));
+    padding-top: 1rem/* 16px */;
+    padding-bottom: 1rem/* 16px */;
+}

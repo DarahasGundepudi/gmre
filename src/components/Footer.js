@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
+  window.scrollTo(0, 0);
   return (
     <footer className="footerMain">
       <div>

@@ -74,6 +74,7 @@ const latestProducts = [
 ];
 
 const LatestProducts = () => {
+  window.scrollTo(0, 0);
   return (
     <div style={{marginBottom: '4rem'}}>
       <h2 className="lpHeading">Latest Products</h2>

@@ -1,0 +1,13 @@
+.manyProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.headings {
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+}

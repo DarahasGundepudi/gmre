@@ -64,7 +64,7 @@ const ProductSidebar = () => {
   ];
   const [activeIndex, setActiveIndex] = useState(-1);
   return (
-    <div style={{ border: "1px solid #dddddd", padding: "1rem", height: 'fit-content'}}>
+    <div style={{ backgroundColor: '#FFF', border: "1px solid #dddddd", padding: "1rem", height: 'fit-content'}}>
       <p style={{ marginBlockStart: 0, fontWeight: "bold", color: "#1b65b0" }}>
         Products
       </p>
