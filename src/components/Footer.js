@@ -82,8 +82,8 @@ const Footer = () => {
         </div>
         <div className="phonemail">
           <img src={mail} alt="" />
-          <a href="mailto:thrayeesales@gmail.com">
-            <p style={{ marginBlock: 0 }}>thrayeesales@gmail.com</p>
+          <a href="mailto:info@teis.in">
+            <p style={{ marginBlock: 0 }}>info@teis.in</p>
           </a>
         </div>
         <div className="ownerName">

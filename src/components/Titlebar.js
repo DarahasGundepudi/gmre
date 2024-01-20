@@ -24,7 +24,7 @@ const Titlebar = () => {
                   color: "black",
                   textDecoration: "none",
                 }}
-                href="tel:+918985748092"
+                href="tel:+919704233306"
               >
                 <img
                   style={{ height: "18px", width: "18px" }}
@@ -33,7 +33,7 @@ const Titlebar = () => {
                   width="20"
                   height="20"
                 />
-                &nbsp;Call Us: +918985748092
+                &nbsp;Call Us: +91 9704233306
               </a>
               <a
                 style={{

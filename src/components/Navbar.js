@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About us</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
             <Dropdown
@@ -28,12 +28,12 @@ const Navbar = () => {
               <Dropdown.Item>Hydraulic cylinder</Dropdown.Item>
               <Dropdown.Item>Bearings</Dropdown.Item>
               <Dropdown.Item>Conveyor belt</Dropdown.Item>
-              <Dropdown.Item>Stacker Reclaimer</Dropdown.Item>
-              <Dropdown.Item>Bolt & nuts</Dropdown.Item>
+              <Dropdown.Item>Rail Sections</Dropdown.Item>
+              <Dropdown.Item>Bolts & nuts</Dropdown.Item>
               <Dropdown.Item>Gear box</Dropdown.Item>
               <Dropdown.Item>Pulley</Dropdown.Item>
-              <Dropdown.Item>Conveyor idle roller</Dropdown.Item>
-              <Dropdown.Item>Chain & Sprockets</Dropdown.Item>
+              <Dropdown.Item>Conveyor idler roller</Dropdown.Item>
+              <Dropdown.Item>Chains & Chain Sprockets</Dropdown.Item>
             </Dropdown>
           </li>
           <li>
@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <Dropdown
-              title="Other products"
+              title="Other Products"
               trigger={["click", "hover"]}
               className="dropdownclass"
             >
@@ -82,7 +82,7 @@ const Navbar = () => {
             </Dropdown>
           </li>
           <li>
-            <Link to="contact">Contact us</Link>
+            <Link to="contact">Contact Us</Link>
           </li>
         </ul>
       </nav>

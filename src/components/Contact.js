@@ -12,6 +12,42 @@ const Contact = () => {
   // if (state.succeeded) {
   //   return <p>Thanks for joining!</p>;
   // }
+  const productOptions = ["Stacker Reclaimer",
+                          "Cable reeling drum",
+                          "Electrical cables",
+                          "Electromagnetic clutch",
+                          "Gear motor",
+                          "Hydraulic cylinder",
+                          "Bearings",
+                          "Conveyor belt",
+                          "Rail Sections",
+                          "Bolts & nuts",
+                          "Gear box",
+                          "Pulley",
+                          "Conveyor idler roller",
+                          "Chains & Chain Sprockets",
+                          "GRC & GFRC wall panel",
+                          "GRC Jali",
+                          "GRC Murals and Statues",
+                          "GRC Cladding panel",
+                          "GRC Cornices",
+                          "GRC Columns",
+                          "Ground Granulated Blast Furnace Slag",
+                          "Industrial Coal",
+                          "Fly Ash",
+                          "Petroleum Coke",
+                          "Iron Ores",
+                          "Gypsum Powder",
+                          "Phosphogypsum Powder",
+                          "Copper Ore",
+                          "Copper Millberry Scrap",
+                          "Copper Slag",
+                          "Maize Cattle Feed",
+                          "Cashew Nut",
+                          "Mens Underwear",
+                          "Dried Ginger Powder",
+                          "Black Pepper Powder"
+                          ]
   return (
     <div style={{ padding: "0px 6vw", backgroundColor: "#FFFFFF" }}>
       <h2 className="contactHeading">Contact us</h2>
@@ -42,8 +78,8 @@ const Contact = () => {
             </div>
             <div className="phonemail1">
               <img src={mail} alt="" />
-              <a href="mailto:thrayeesales@gmail.com">
-                <p style={{ marginBlock: 0 }}>thrayeesales@gmail.com</p>
+              <a href="mailto:info@teis.in">
+                <p style={{ marginBlock: 0 }}>info@teis.in</p>
               </a>
             </div>
             <div className="ownerName1">
@@ -56,12 +92,12 @@ const Contact = () => {
           </div>
           <form onSubmit={handleSubmit}>
             <label>Product / Service looking for</label>
-            <input
-              type="text"
-              id="product"
-              name="product"
-              placeholder="Product / Service looking for"
-            />
+            <select id="product" name="product">
+              <option value="select">Select</option>
+              {productOptions.map((op)=>{
+                return <option value={op}>{op}</option>
+              })}
+            </select>
             <ValidationError
               prefix="Product"
               field="product"
@@ -79,10 +115,12 @@ const Contact = () => {
             />
             <label>Phone/Mobile</label>
             <input
-              type="number"
+              type="text"
               id="phone"
               name="phone"
               placeholder="Phone / Mobile"
+              pattern="[0-9]*"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
             />
             <ValidationError
               prefix="Phone"

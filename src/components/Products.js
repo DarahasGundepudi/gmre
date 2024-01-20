@@ -159,11 +159,34 @@ const egImages = [
   stackerreclaimer,
 ];
 
+
+
 const Products = () => {
     window.scrollTo(0, 0);
   return (
     <div>
-      <h2 className="headings">Engineering products</h2>
+      <h2 className="headings">Engineering Products</h2>
+      <div className="manyProducts">
+        {egProducts.map((product, index) => {
+          let igm = { img: egImages[index] };
+          return <ProductCard {...product} {...igm} />;
+        })}
+      </div>
+      <h2 className="headings">GRC Products</h2>
+      <div className="manyProducts">
+        {egProducts.map((product, index) => {
+          let igm = { img: egImages[index] };
+          return <ProductCard {...product} {...igm} />;
+        })}
+      </div>
+      <h2 className="headings">Metals & Mining Ores</h2>
+      <div className="manyProducts">
+        {egProducts.map((product, index) => {
+          let igm = { img: egImages[index] };
+          return <ProductCard {...product} {...igm} />;
+        })}
+      </div>
+      <h2 className="headings">Other Products</h2>
       <div className="manyProducts">
         {egProducts.map((product, index) => {
           let igm = { img: egImages[index] };

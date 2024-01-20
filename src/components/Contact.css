@@ -16,6 +16,12 @@ input {
     border: 1px solid #dddddd;
 }
 
+select {
+    padding: 6px 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #dddddd;
+}
+
 form>label {
     text-align: left;
     margin-bottom: 8px;
